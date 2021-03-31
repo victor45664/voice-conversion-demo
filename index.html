@@ -1,285 +1,199 @@
-<html>
-  <head>
-    <meta charvctk_set="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> Voice Cloning Experiment I</h3>
-      The multi-speaker model debug and speaker encoder model were trained on 84 VCTK speakers (48 KHz sampling rate), voice cloning was performed on other VCTK speakers (48 KHz sampling rate). The average duration of a cloning sample is 3.7 seconds. <b>Boldface indicates the best results.</b>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 0 (female)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="vctk_set0/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="vctk_set0/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="vctk_set0/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="vctk_set0/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="vctk_set0/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="vctk_set0/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="vctk_set0/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="vctk_set0/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="vctk_set0/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="vctk_set0/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="vctk_set0/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="vctk_set0/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="vctk_set0/wholemodel_100sample.wav"></audio></td></tr>
-      </table>
-    </div>
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://auspicious3000.github.io/icassp-2020-demo/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>F0-Consistent Voice Conversion</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="./F0-Consistent Voice Conversion_files/main.css">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  </body>
-</html>
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
 
+				<!-- Menu -->
 
-<html>
-  <head>
-    <meta charvctk_set="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 1 (female)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="vctk_set1/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="vctk_set1/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="vctk_set1/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="vctk_set1/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="vctk_set1/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="vctk_set1/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="vctk_set1/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="vctk_set1/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="vctk_set1/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="vctk_set1/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="vctk_set1/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="vctk_set1/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="vctk_set1/wholemodel_100sample.wav"></audio></td></tr>
-      </table>
-    </div>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>F0-Consistent Many-to-Many Non-Parallel Voice Conversion via Conditional Autoencoder - <font color="#58c3c2">Audio Demo</font></h1>
+							<font size="5"><p><i> Kaizhi Qian, Zeyu Jin, Mark Hasegawa-Johnson, Gautham Mysore</i></p></font>
+							<p></p>
+							<br><br>
+							<section>
+								<h2><font size="5" color="#58c3c2">Paper</font></h2>
+								<p>Our Paper is <a href="https://arxiv.org/abs/2004.07370">here</a>.
+							</p></section>
+							<!-- Text -->
+							    <section>
+								<a name="traditional"></a>
+							    	<h2><font size="5" color="#58c3c2">Qualitative Evaluation</font></h2>
+							    	<p>(Section 3.2 in the paper)</p>
+							    	<p>Our main goal is to compare F0-<font style="font-variant: small-caps">AutoVC</font> against the original <font style="font-variant: small-caps">AutoVC</font>, but we also include 2 additional baselines for better comparison.</p>
+							    	<ul class="12u 12u$(medium)">
+										<li><b><font style="font-variant: small-caps">F0-AutoVC</font></b> - the proposed F0-conditioned autoencoder-based conversion algorithm</li>
+										<li><b><font style="font-variant: small-caps">AutoVC</font></b> - the original autoencoder-based conversion algorithm</li>
+										<li><b>StarGAN-VC</b> - a voice conversion system that adopts the StarGAN paradigm</li>
+										<li><b>Chou et. al.</b> - a voice conversion system combining autoencoder with GAN and speaker classifier</li>
+									</ul>
+									<p>Below are a few demo audios.</p>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th><font color="#58c3c2">Source Speaker / Speech</font></th>
+													<th><font color="#58c3c2">Target Speaker / Speech</font></th>
+													<th><font color="#58c3c2">Conversion</font></th>
+													<th></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td rowspan="4">p225 (Female) <audio controls=""><source src="audios/ground_1/p225_003_001.wav"><embed height="50" src="audios/ground_1/p225_003_001.wav" width="100"></audio></td>
+													<td rowspan="4">p226 (Male) <audio controls=""><source src="audios/ground_2/p226_002.wav"><embed height="50" src="audios/ground_2/p226_002.wav" width="100"></audio></td>
+													<td><font style="font-variant: small-caps">F0-AutoVC</font></td>
+													<td><audio controls=""><source src="audios/ours/p225xp226_ours_u003001.mp3"><embed height="50" src="audios/ours/p225xp226_ours_u003001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td><font style="font-variant: small-caps">AutoVC</font></td>
+													<td><audio controls=""><source src="audios/cae/p225xp226_cae_u003001.mp3"><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>StarGAN-VC</td>
+													<td><audio controls=""><source src="audios/star/p225xp226_star_u003001.mp3"><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>Chou et. al.</td>
+													<td><audio controls=""><source src="audios/chou/p225xp226_chou_u003001.mp3"><embed height="50" src="audios/chou/p225xp226_chou_u003001.mp3" width="100"></audio>
+													</td>
+												</tr>
 
-  </body>
-</html>
-
-
-<html>
-  <head>
-    <meta charvctk_set="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 2 (male)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="vctk_set2/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="vctk_set2/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="vctk_set2/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="vctk_set2/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="vctk_set2/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="vctk_set2/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="vctk_set2/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="vctk_set2/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="vctk_set2/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="vctk_set2/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="vctk_set2/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="vctk_set2/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="vctk_set2/wholemodel_100sample.wav"></audio></td></tr>
-      </table>
-    </div>
-
-  </body>
-</html>
-
-<html>
-  <head>
-    <meta charvctk_set="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 3 (male)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="vctk_set3/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="vctk_set3/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="vctk_set3/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="vctk_set3/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="vctk_set3/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="vctk_set3/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="vctk_set3/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="vctk_set3/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="vctk_set3/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="vctk_set3/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="vctk_set3/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="vctk_set3/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="vctk_set3/wholemodel_100sample.wav"></audio></td></tr>
-      </table>
-    </div>
-    <hr>
-  </body>
-</html>
+												<tr>
+													<td rowspan="4">p225 (Female) <audio controls=""><source src="audios/ground_1/p225_006_001.wav"><embed height="50" src="audios/ground_1/p225_006_001.wav" width="100"></audio></td>
+													<td rowspan="4">p270 (Male) <audio controls=""><source src="audios/ground_2/p270_002.wav"><embed height="50" src="audios/ground_2/p270_002.wav" width="100"></audio></td>
+													<td><font style="font-variant: small-caps">F0-AutoVC</font></td>
+													<td><audio controls=""><source src="audios/ours/p225xp270_ours_u006001.mp3"><embed height="50" src="audios/ours/p225xp270_ours_u006001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td><font style="font-variant: small-caps">AutoVC</font></td>
+													<td><audio controls=""><source src="audios/cae/p225xp270_cae_u006001.mp3"><embed height="50" src="audios/cae/p225xp270_cae_u006001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>StarGAN-VC</td>
+													<td><audio controls=""><source src="audios/star/p225xp270_star_u006001.mp3"><embed height="50" src="audios/star/p225xp270_star_u006001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>Chou et. al.</td>
+													<td><audio controls=""><source src="audios/chou/p225xp270_chou_u006001.mp3"><embed height="50" src="audios/chou/p225xp270_chou_u006001.mp3" width="100"></audio>
+													</td>
+												</tr>
 
 
+												<tr>
+													<td rowspan="4">p226 (Male) <audio controls=""><source src="audios/ground_1/p226_008001.wav"><embed height="50" src="audios/ground_1/p226_008001.wav" width="100"></audio></td>
+													<td rowspan="4">p225 (Female) <audio controls=""><source src="audios/ground_2/p225_002.wav"><embed height="50" src="audios/ground_2/p225_002.wav" width="100"></audio></td>
+													<td><font style="font-variant: small-caps">F0-AutoVC</font></td>
+													<td><audio controls=""><source src="audios/ours/p226xp225_ours_u008001.mp3"><embed height="50" src="audios/ours/p226xp225_ours_u008001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td><font style="font-variant: small-caps">AutoVC</font></td>
+													<td><audio controls=""><source src="audios/cae/p226xp225_cae_u008001.mp3"><embed height="50" src="audios/cae/p226xp225_cae_u008001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>StarGAN-VC</td>
+													<td><audio controls=""><source src="audios/star/p226xp225_star_u008001.mp3"><embed height="50" src="audios/star/p226xp225_star_u008001.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>Chou et. al.</td>
+													<td><audio controls=""><source src="audios/chou/p226xp225_chou_u008001.mp3"><embed height="50" src="audios/chou/p226xp225_chou_u008001.mp3" width="100"></audio>
+													</td>
+												</tr>
 
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> Voice Cloning Experiment II</h3>
-      The multi-speaker model and speaker encoder model were trained on LibriSpeech speakers (16 KHz sampling rate), voice cloning was performed on VCTK speakers (downsampled to 16 KHz sampling rate). The average duration of a cloning sample is 3.7 seconds. <b>Boldface indicates the best results.</b>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 0 (female)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="set0/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="set0/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="set0/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="set0/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="set0/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="set0/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="set0/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="set0/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="set0/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="set0/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="set0/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="set0/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="set0/wholemodel_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 1 sample)</td><td><audio controls><source src="set0/withoutfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 5 samples)</td><td><audio controls><source src="set0/withoutfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 10 samples)</td><td><audio controls><source src="set0/withoutfinetuning_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 1 sample)</td><td><audio controls><source src="set0/withfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 5 samples)</td><td><audio controls><source src="set0/withfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 10 samples)</td><td><audio controls><source src="set0/withfinetuning_10sample.wav"></audio></td></tr>
-      </table>
-    </div>
+												<tr>
+													<td rowspan="4">p227 (Male) <audio controls=""><source src="audios/ground_1/p227_010.wav"><embed height="50" src="audios/ground_1/p227_010.wav" width="100"></audio></td>
+													<td rowspan="4">p233 (Female) <audio controls=""><source src="audios/ground_2/p233_002.wav"><embed height="50" src="audios/ground_2/p233_002.wav" width="100"></audio></td>
+													<td><font style="font-variant: small-caps">F0-AutoVC</font></td>
+													<td><audio controls=""><source src="audios/ours/p227xp233_ours_u010.mp3"><embed height="50" src="audios/ours/p227xp233_ours_u010.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td><font style="font-variant: small-caps">AutoVC</font></td>
+													<td><audio controls=""><source src="audios/cae/p227xp233_cae_u010.mp3"><embed height="50" src="audios/cae/p227xp233_cae_u010.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>StarGAN-VC</td>
+													<td><audio controls=""><source src="audios/star/p227xp233_star_u010.mp3"><embed height="50" src="audios/star/p227xp233_star_u010.mp3" width="100"></audio>
+													</td>
+												</tr>
+												<tr>
+													<td>Chou et. al.</td>
+													<td><audio controls=""><source src="audios/chou/p227xp233_chou_u010.mp3"><embed height="50" src="audios/chou/p227xp233_chou_u010.mp3" width="100"></audio>
+													</td>
+												</tr>
 
-  </body>
-</html>
+											</tbody>
+										</table>
+									</div>
+									<a href="https://auspicious3000.github.io/icassp-2020-demo/#" class="button special">Back to Top</a>
+									<a href="https://auspicious3000.github.io/icassp-2020-demo/#traditional" class="button special">Back to Section Start</a>
+									<br><br><br><br>
+								</section>
+								
+								<section>
+								<a name="f0-control"></a>
+									<h2><font size="5" color="#58c3c2">F0-Control</font></h2>
+									<p>(Section 3.1.3 in the paper)</p>
+									<p>We are able to control the converted F0 by modifying the conditioned F0. <br> For demonstration purpose, we simply modify the conditioned F0 to be a constant value.</p>
 
+									<p>Below are a few demo audios.</p>
+									<div class="table-wrapper">
+										<table>
+											<tbody>
+												<tr>
+													<td><audio controls=""><source src="audios/flat/p225xp226_cae_u001.wav"><embed height="50" src="audios/flat/p225xp226_cae_u001.wav" width="100"></audio></td>
+													<td><audio controls=""><source src="audios/flat/p225xp227_cae_u003001.wav"><embed height="50" src="audios/flat/p225xp227_cae_u003001.wav" width="100"></audio></td>
+													<td><audio controls=""><source src="audios/flat/p225xp228_cae_u006001.wav"><embed height="50" src="audios/flat/p225xp228_cae_u006001.wav" width="100"></audio>
+													</td>
+												</tr>
 
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 1 (female)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="set1/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="set1/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="set1/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="set1/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="set1/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="set1/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="set1/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="set1/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="set1/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="set1/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="set1/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="set1/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="set1/wholemodel_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 1 sample)</td><td><audio controls><source src="set1/withoutfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 5 samples)</td><td><audio controls><source src="set1/withoutfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 10 samples)</td><td><audio controls><source src="set1/withoutfinetuning_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 1 sample)</td><td><audio controls><source src="set1/withfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 5 samples)</td><td><audio controls><source src="set1/withfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 10 samples)</td><td><audio controls><source src="set1/withfinetuning_10sample.wav"></audio></td></tr>
-      </table>
-    </div>
-
-  </body>
-</html>
-
-
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 2 (male)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="set2/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="set2/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="set2/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="set2/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="set2/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="set2/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="set2/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="set2/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="set2/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="set2/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="set2/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="set2/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="set2/wholemodel_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 1 sample)</td><td><audio controls><source src="set2/withoutfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 5 samples)</td><td><audio controls><source src="set2/withoutfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 10 samples)</td><td><audio controls><source src="set2/withoutfinetuning_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 1 sample)</td><td><audio controls><source src="set2/withfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 5 samples)</td><td><audio controls><source src="set2/withfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 10 samples)</td><td><audio controls><source src="set2/withfinetuning_10sample.wav"></audio></td></tr>
-      </table>
-    </div>
-
-  </body>
-</html>
-
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Audio demos</title>
-  </head>
-  <body>
-    <div>
-      <h3> </h3>
-      <table>
-        <tr><td></td><td class="transcript">Speaker 3 (male)</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="set3/ground_truth.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 1 sample)</td><td><audio controls><source src="set3/embedadapt_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 5 samples)</td><td><audio controls><source src="set3/embedadapt_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 10 samples)</td><td><audio controls><source src="set3/embedadapt_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 20 samples)</td><td><audio controls><source src="set3/embedadapt_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 50 samples)</td><td><audio controls><source src="set3/embedadapt_50sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker embedding adaptation with 100 samples)</td><td><audio controls><source src="set3/embedadapt_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 1 sample)</td><td><audio controls><source src="set3/wholemodel_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 5 samples)</td><td><audio controls><source src="set3/wholemodel_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 10 samples)</td><td><audio controls><source src="set3/wholemodel_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 20 samples)</td><td><audio controls><source src="set3/wholemodel_20sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (whole model adaptation with 50 samples)</td><td><audio controls><source src="set3/wholemodel_50sample.wav"></audio></td></tr>
-        <tr><td><b>Cloned speech (whole model adaptation with 100 samples)</b></td><td><audio controls><source src="set3/wholemodel_100sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 1 sample)</td><td><audio controls><source src="set3/withoutfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 5 samples)</td><td><audio controls><source src="set3/withoutfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder without fine-tuning with 10 samples)</td><td><audio controls><source src="set3/withoutfinetuning_10sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 1 sample)</td><td><audio controls><source src="set3/withfinetuning_1sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 5 samples)</td><td><audio controls><source src="set3/withfinetuning_5sample.wav"></audio></td></tr>
-        <tr><td>Cloned speech (speaker encoder with fine-tuning with 10 samples)</td><td><audio controls><source src="set3/withfinetuning_10sample.wav"></audio></td></tr>
-      </table>
-    </div>
+											</tbody>
+										</table>
+									</div>
 
 
-    <div>
-      <h3> Manipulation on estimated speaker embedding by speaker encoder</h3>
-      <table>
-        <tr><td></td><td class="transcript">Apply male-->female vector to convert British male to British female</td></tr>
-        <img src="embedding/demo_s1_male_to_female.png" width="45%" height="45%" />
-        <tr><td>Original speaker (British male)</td><td><audio controls><source src="embedding/original.wav"></audio></td></tr>
-        <tr><td>Synthesized speaker (sample 1)</td><td><audio controls><source src="embedding/britishmale_to_britishfemale_sample1.wav"></audio></td></tr>
-        <tr><td>Synthesized speaker (sample 2)</td><td><audio controls><source src="embedding/britishmale_to_britishfemale_sample2.wav"></audio></td></tr>
-      </table>
+									<a href="https://auspicious3000.github.io/icassp-2020-demo/#" class="button special">Back to Top</a>
+									<a href="https://auspicious3000.github.io/icassp-2020-demo/#f0-control" class="button special">Back to Section Start</a>
+									<br><br><br><br>
+								</section>
+								
+								
 
-      <table>
-        <tr><td></td><td class="transcript">Apply British-->American vector to convert British male to American male</td></tr>
-        <img src="embedding/demo_s1_British_to_American.png" width="45%" height="45%" />
-        <tr><td>Original speaker (British male)</td><td><audio controls><source src="embedding/original.wav"></audio></td></tr>
-        <tr><td>Synthesized speaker (sample 1)</td><td><audio controls><source src="embedding/britishmale_to_americanmale_sample1.wav"></audio></td></tr>
-        <tr><td>Synthesized speaker (sample 2)</td><td><audio controls><source src="embedding/britishmale_to_americanmale_sample2.wav"></audio></td></tr>
-      </table>
-    </div>
+			</div>
 
-  </body>
-</html>
+		<!-- Scripts -->
+			<script src="./F0-Consistent Voice Conversion_files/jquery.min.js.下载"></script>
+			<script src="./F0-Consistent Voice Conversion_files/skel.min.js.下载"></script>
+			<script src="./F0-Consistent Voice Conversion_files/util.js.下载"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="./F0-Consistent Voice Conversion_files/main.js.下载"></script>
+
+	
+
+</div></div></body></html>
