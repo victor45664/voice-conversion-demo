@@ -42,8 +42,8 @@
 							    	
 							    	<ul class="12u 12u$(medium)">
 										<li><b>Baseline</b> - The baseline system in which the speaker embedding is concatenated to hidden representations</li>
-			     						<li><b>Baseline-SL</b> - The statistics replacement layer is used</li>
-										<li><b>Baseline-SL-MT</b> - The statistics replacement layer and the multi-task training is used</li>
+			     						<li><b>statistics-replacement</b> - The statistics replacement layer is used</li>
+										<li><b>replacement-MT</b> - The statistics replacement layer and the multi-task training is used</li>
 										<li><b>Baseline-NM</b> - The hidden representations is normalized alone time before the speaker embedding being concatenated. (i.e. we only perform the normalization step in statistics replacement layer,and concatenate speaker embedding to the hidden representations)(This expirment is not mentioned in our paper)</li>									
 							    	<p>Our main goal is to demonstrate the effectiveness of our proposed method. The Baseline-NM is included to prove that the performance improvement is not only because of the InstanceNorm(IN) like normalization step.</p>
 							    	<ul class="12u 12u$(medium)">
@@ -69,12 +69,12 @@
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL</td>
+													<td>statistics-replacement</td>
 													<td><audio controls=""><source src="audios/cae/p225xp226_cae_u003001.mp3"><embed height="50" src="audios/cae/p225xp226_cae_u003001.mp3" width="100"></audio>
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL-MT</td>
+													<td>replacement-MT</td>
 													<td><audio controls=""><source src="audios/star/p225xp226_star_u003001.mp3"><embed height="50" src="audios/star/p225xp226_star_u003001.mp3" width="100"></audio>
 													</td>
 												</tr>
@@ -92,12 +92,12 @@
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL</td>
+													<td>statistics-replacement</td>
 													<td><audio controls=""><source src="audios/cae/p225xp270_cae_u006001.mp3"><embed height="50" src="audios/cae/p225xp270_cae_u006001.mp3" width="100"></audio>
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL-MT</td>
+													<td>replacement-MT</td>
 													<td><audio controls=""><source src="audios/star/p225xp270_star_u006001.mp3"><embed height="50" src="audios/star/p225xp270_star_u006001.mp3" width="100"></audio>
 													</td>
 												</tr>
@@ -116,12 +116,12 @@
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL</td>
+													<td>statistics-replacement</td>
 													<td><audio controls=""><source src="audios/cae/p226xp225_cae_u008001.mp3"><embed height="50" src="audios/cae/p226xp225_cae_u008001.mp3" width="100"></audio>
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL-MT</td>
+													<td>replacement-MT</td>
 													<td><audio controls=""><source src="audios/star/p226xp225_star_u008001.mp3"><embed height="50" src="audios/star/p226xp225_star_u008001.mp3" width="100"></audio>
 													</td>
 												</tr>
@@ -139,12 +139,12 @@
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL</td>
+													<td>statistics-replacement</td>
 													<td><audio controls=""><source src="audios/cae/p227xp233_cae_u010.mp3"><embed height="50" src="audios/cae/p227xp233_cae_u010.mp3" width="100"></audio>
 													</td>
 												</tr>
 												<tr>
-													<td>Baseline-SL-MT</td>
+													<td>replacement-MT</td>
 													<td><audio controls=""><source src="audios/star/p227xp233_star_u010.mp3"><embed height="50" src="audios/star/p227xp233_star_u010.mp3" width="100"></audio>
 													</td>
 												</tr>
